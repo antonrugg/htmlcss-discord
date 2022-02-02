@@ -13,9 +13,8 @@
 
 .wrapper{
     width: 80%;
-    height: 100vh;
+    height: 200vh;
     margin: auto;
-    
 
 }
 
@@ -40,8 +39,16 @@ nav li{
     margin-right: 3rem;
 }
 
-nav li > a{
+a{
     text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav li > a{
     color: hsl(223deg 75% 95%);
     font-size: 16px;
     font-weight: 900;
@@ -52,18 +59,14 @@ nav li > a{
     padding: 0.5rem 0.1rem;
     width: 5%;
     text-align: center;
-    text-decoration: none;
     background-color: white;
-    color: black;
     font-size: 16px;
     border-radius: 5rem;
     margin-left: 15rem;
     margin-top: 1.4rem;
 }
 
-.btn:hover{
-    text-decoration: underline;
-}
+
 
 .jumbo-section{
     position: relative;
@@ -88,3 +91,61 @@ nav li > a{
 .jumbo-text h1{
     font-size: 40px;
 }
+
+.header-btns{
+    margin-top: 3rem;
+}
+
+.header-btns > a{
+    background-color: white;
+    border-radius: 5rem;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+
+}
+
+.header-btns > a:last-child{
+    background-color: black;
+    color: white;
+}
+
+.header-btns > a:hover:last-child{
+    color: darkviolet;
+    background-color: white;
+}
+
+.talk-space{
+    height: 90vh;
+    width: 80%;
+    margin: auto;
+    background-image: url("");
+}
+
+.talk-space > img{
+    width: 60%;
+    padding-left: 1rem;
+    padding-top: 7rem;
+    padding-right: 2rem;
+    
+}
+
+
+
+ .talk-space > .img-text-section{
+    display: inline-block;
+    width: 30%;
+    font-size: 26px;
+    padding-right: 2rem;
+}
+
+.img-text-section > p{
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    font-weight: 600;
+    color: rgb(64 67 70);
+}
+
+
+
+
