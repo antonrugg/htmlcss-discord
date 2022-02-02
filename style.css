@@ -146,6 +146,51 @@ nav li > a{
     color: rgb(64 67 70);
 }
 
+.adventure-space{
+    width: 80%;
+    height: 120vh;
+    margin: auto;
+    text-align: center;
+}
+
+.text-section{
+    width: 69%;
+    margin: auto;
+    margin-top: 7rem;
+}
+
+.text-section > h2{
+    font-size: 36px;
+}
+
+.text-section > p{
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    font-weight: 600;
+    color: rgb(64 67 70);
+}
+
+.ready-space{
+    width: 40%;
+    margin: auto;
+    font-size: 16px;
+    background-image: url("./img/stars.svg");
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 4rem;
+}
+
+.adventure-space > a{
+    background-color: rgb(142 161 225);
+    border-radius: 5rem;
+    padding: 1rem 1.5rem;
+    font-weight: 500;
+    color: white;
+}
+
+
+
 
 
 
