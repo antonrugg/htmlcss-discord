@@ -178,6 +178,7 @@ nav li > a{
     background-image: url("./img/stars.svg");
     background-size: cover;
     background-position: bottom;
+    margin-top: 4rem;
     margin-bottom: 4rem;
 }
 
@@ -187,6 +188,11 @@ nav li > a{
     padding: 1rem 1.5rem;
     font-weight: 500;
     color: white;
+}
+
+footer{
+    height: 70vh;
+    background-color: rgb(35 39 42);
 }
 
 
