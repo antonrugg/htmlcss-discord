@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
 
 .clearfix::after {
@@ -14,8 +15,7 @@
     width: 80%;
     height: 100vh;
     margin: auto;
-    background-color: blue;
-    font-family: sans-serif;
+    
 
 }
 
@@ -49,7 +49,7 @@ nav li > a{
 
 .btn{
     float: left;
-    padding: 0.3rem 0.1rem;
+    padding: 0.5rem 0.1rem;
     width: 5%;
     text-align: center;
     text-decoration: none;
@@ -58,5 +58,33 @@ nav li > a{
     font-size: 16px;
     border-radius: 5rem;
     margin-left: 15rem;
-    margin-top: 1.6rem;
+    margin-top: 1.4rem;
+}
+
+.btn:hover{
+    text-decoration: underline;
+}
+
+.jumbo-section{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url("./img/jumbo.png");
+    background-size: cover;
+    height: 65vh;
+}
+
+.jumbo-text{
+    padding: 5rem 18rem;
+    
+}
+
+.jumbo-text p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-top: 3rem;
+}
+
+.jumbo-text h1{
+    font-size: 40px;
 }
